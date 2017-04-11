@@ -16,7 +16,7 @@ function draw(){
 function display(){
    //pop
     noStroke();
-    ellipse(x+100, y+75, x-75, y-25);
+    ellipse(x+100, y+75, 75, 75);
     fill(255);
 
 }
