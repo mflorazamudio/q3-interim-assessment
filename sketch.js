@@ -7,22 +7,24 @@ function setup(){
 
 function draw(){
     background(50);
+    bottom();
     display();
     
   
 }
 
-function display(x, y){
+function display(){
    //pop
     noStroke();
     ellipse(x+100, y+75, x-75, y-25);
     fill(255);
 
-     //the line
+}
+
+function bottom(){
+    //the line
     rect(x+97, y+65, 10, 125);
     fill(66, 217, 244);
 }
-
-
 
 
